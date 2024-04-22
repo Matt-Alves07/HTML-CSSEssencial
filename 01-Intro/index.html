@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro - Index</title>
-</head>
-<body>
+    <head>
+        <title>Intro - Index</title>
+
+        <link rel="stylesheet" href="css/index.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="text/javascript">
+            let userName = prompt("Please, type your name to continue:") ?? "";
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <h3>Matt-Alves07</h3>
+
+            <h6>INTRO</h6>
+
+            <figure id="top-image">
+                <img src="imgs/topo-site.png" alt="Header image" srcset="">
+            </figure>
+        </header>
+
+        <main>
+            <h1>Software Engineer</h1>
+
+            <div id="user-name">
+                <script type="text/javascript">
+                    //Check if the user name is not null, and also not empty
+                    //If both conditions met, we'll use the user name, or else
+                    //we'll use the default 'Visitor'
+                    let visitorName = userName !== null && userName === "" ? "Visitor" : userName;
     
-</body>
+                    //Print on screen the message, with the visitor name
+                    document.write("Hello dear " + visitorName);
+                </script>
+            </div>
+
+            <p>
+                <strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Illum expedita mollitia, quod velit totam consequuntur aperiam beatae inventore minus non ratione nobis, at nisi, eaque exercitationem culpa amet explicabo a?
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt maxime nesciunt asperiores obcaecati aliquid tempora minima! Facere, odit, voluptates molestias enim asperiores repellat eum provident, dolorum ut id totam voluptate?
+            </p>
+
+            <h2>What does a software engineer do?</h2>
+
+            <figure>
+                <img class="content-image" src="imgs/analista-img1.gif" alt="Software engineer image 1" srcset="">
+            </figure>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro velit non facilis illo inventore. Asperiores laudantium a blanditiis illum, iusto, voluptatum dolorum natus sed minima veniam alias vitae, id saepe.
+            </p>
+            
+            <h2>What's the needed knowledge for a software engineer</h2>
+
+            <figure>
+                <img class="content-image" src="imgs/analista-img2.png" alt="Software engineer image 2" srcset="">
+            </figure>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione architecto consectetur at adipisci, labore quia repellat a rerum, pariatur officiis ab aliquam nostrum reiciendis esse unde, maxime corporis ipsam quae.
+            </p>
+
+            <h2>Conclusion</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, libero. Voluptatum deserunt assumenda iure veritatis expedita tempore dolorem, dignissimos sed quisquam beatae numquam maiores, quam sunt debitis, nulla similique reprehenderit!
+            </p>
+        </main>
+
+        <footer>
+            <h3>Matt-Alves07</h3>
+            <p>CPF: 000.000.000-00</p>
+            <p>E-mail: john.doe@test.com</p>
+        </footer>
+    </body>
 </html>
